@@ -8,7 +8,25 @@ I enjoy exploring **threat detection, cloud security, and automation**—especia
 
 ---
 
-## 🔭 Projects I’m Working On
+
+## Cybersecurity portfolio — personal labs
+
+My current focus is detection engineering, SOC investigations, and secure Azure
+infrastructure. I am preparing for **Microsoft SC-200**.
+
+| Project | What it demonstrates | Validation boundary |
+| --- | --- | --- |
+| [Azure Sentinel threat detection](https://github.com/karthik-netha/azure-sentinel-threat-detection) | Three KQL detections, synthetic logs, ATT&CK mappings, false-positive analysis, and a simulated investigation | Local Python reference model tested; live KQL/Sentinel validation pending |
+| [Secure Azure infrastructure with Terraform](https://github.com/karthik-netha/azure-secure-infrastructure-terraform) | Private endpoints, resource-scoped identity permissions, Key Vault, encryption controls, and diagnostic logging | Terraform schema and mocked tests passed; Azure deployment pending |
+| [Python SOC investigation automation](https://github.com/karthik-netha/python-soc-investigation-automation) | Indicator extraction, offline synthetic enrichment, JSON/Markdown reports, and error handling | Local tests and offline demo passed; no live vendor integration or automated containment |
+
+These are personal learning projects using synthetic data. Their results do not
+represent production deployments or employer/customer environments. Each repository
+includes a walkthrough, test evidence, limitations, and interview notes.
+
+---
+
+## 🔭 Other Projects I’m Working On
 - **SOC Simulation Lab:** Building a simulated SOC using **Splunk and Security Onion** to detect brute-force and privilege escalation attacks, mapped to **MITRE ATT&CK**.  
 - **Python Automation for Incident Response:** Automating IOC lookups and alert triage using **Python** and **VirusTotal APIs** to reduce manual investigation time.  
 - **Vulnerability Dashboard:** Creating **Power BI and Python** dashboards to analyze CVSS trends, remediation timelines, and SLA compliance.  
