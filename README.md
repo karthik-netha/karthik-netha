@@ -18,7 +18,7 @@ infrastructure. I am preparing for **Microsoft SC-200**.
 | Project | What it demonstrates | Validation boundary |
 | --- | --- | --- |
 | [Azure Sentinel threat detection](https://github.com/karthik-netha/azure-sentinel-threat-detection) | Three KQL detections, synthetic logs, ATT&CK mappings, false-positive analysis, and a simulated investigation | Local Python reference model tested; live KQL/Sentinel validation pending |
-| [Secure Azure infrastructure with Terraform](https://github.com/karthik-netha/secure-azure-infrastructure-terraform) | Private endpoints, resource-scoped identity permissions, Key Vault, encryption controls, and diagnostic logging | Scaffolding in place; implementation in progress |
+| [Secure Azure infrastructure with Terraform](https://github.com/karthik-netha/azure-secure-infrastructure-terraform) | Private endpoints, resource-scoped identity permissions, Key Vault, encryption controls, and diagnostic logging | Mocked Terraform tests passed; no live Azure deployment |
 | [Python SOC investigation automation](https://github.com/karthik-netha/python-soc-investigation-automation) | Indicator extraction, offline synthetic enrichment, JSON/Markdown reports, and error handling | 18 local tests passed; no live vendor integrations |
 
 These are personal learning projects using synthetic data. Their results do not
@@ -31,7 +31,7 @@ includes a walkthrough, test evidence, limitations, and interview notes.
 
 - **SOC Simulation Lab:** Building a simulated SOC using **Splunk and Security Onion** to detect brute-force and privilege escalation attacks, mapped to **MITRE ATT&CK**.
 
-- **Python Automation for Incident Response:** Automating IOC lookups and alert triage using **Python** and **VirusTotal APIs** to reduce manual investigation time.
+- **Python Automation for Incident Response:** Automating IOC lookups and alert triage using **Python** — implemented in [python-soc-investigation-automation](https://github.com/karthik-netha/python-soc-investigation-automation) (offline synthetic enrichment, tested reports, no live vendor APIs).
 
 - **Vulnerability Dashboard:** Creating **Power BI and Python** dashboards to analyze CVSS trends, remediation timelines, and SLA compliance.
 
@@ -41,11 +41,11 @@ includes a walkthrough, test evidence, limitations, and interview notes.
 
 ## 🧰 Technical Toolkit
 
-**SIEM & EDR:** Azure Sentinel | Splunk | Exabeam | Microsoft Defender | CrowdStrike
+**SIEM & EDR:** Microsoft Sentinel | Splunk | Exabeam | Microsoft Defender | CrowdStrike
 
-**Vulnerability Management:** Tenable .sc | Qualys | Nessus
+**Vulnerability Management:** Tenable.sc | Qualys | Nessus
 
-**Cloud Security:** AWS GuardDuty | Security Hub | Azure Defender | IAM | KMS | CloudTrail
+**Cloud Security:** AWS GuardDuty | Security Hub | Microsoft Defender for Cloud | IAM | KMS | CloudTrail
 
 **Automation & Scripting:** Python | PowerShell | Bash | Logic Apps
 
