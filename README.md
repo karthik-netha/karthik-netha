@@ -18,8 +18,8 @@ infrastructure. I am preparing for **Microsoft SC-200**.
 | Project | What it demonstrates | Validation boundary |
 | --- | --- | --- |
 | [Azure Sentinel threat detection](https://github.com/karthik-netha/azure-sentinel-threat-detection) | Three KQL detections, synthetic logs, ATT&CK mappings, false-positive analysis, and a simulated investigation | Local Python reference model tested; live KQL/Sentinel validation pending |
-| Secure Azure infrastructure with Terraform 🚧 | Private endpoints, resource-scoped identity permissions, Key Vault, encryption controls, and diagnostic logging | Coming soon |
-| Python SOC investigation automation 🚧 | Indicator extraction, offline synthetic enrichment, JSON/Markdown reports, and error handling | Coming soon |
+| [Secure Azure infrastructure with Terraform](https://github.com/karthik-netha/secure-azure-infrastructure-terraform) | Private endpoints, resource-scoped identity permissions, Key Vault, encryption controls, and diagnostic logging | Scaffolding in place; implementation in progress |
+| [Python SOC investigation automation](https://github.com/karthik-netha/python-soc-investigation-automation) | Indicator extraction, offline synthetic enrichment, JSON/Markdown reports, and error handling | 18 local tests passed; no live vendor integrations |
 
 These are personal learning projects using synthetic data. Their results do not
 represent production deployments or employer/customer environments. Each project
